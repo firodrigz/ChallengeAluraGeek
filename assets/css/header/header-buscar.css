@@ -1,0 +1,35 @@
+.header__buscar {
+    display: flex;
+    width: 24.5625rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: #F5F5F5;
+    justify-content: space-between;
+    transition: .5s ease;
+}
+
+@media (max-width: 768px) {
+    .header__buscar {
+        width: 17rem;
+        height: 3rem;
+    }
+
+}
+
+@media (max-width: 617px) {
+    .header__buscar {
+        display: none;
+        order: 2;
+
+    }
+}
+
+.miclase {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 5vw;
+    z-index: 1;
+    box-shadow: 0 0 1rem var(--second-bg-color);
+}

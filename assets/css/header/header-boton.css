@@ -1,0 +1,43 @@
+.header__boton {
+    display: flex;
+    width: 11.375rem;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    flex-shrink: 0;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s ease;
+}
+
+.header__boton:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    color: var(--bg-color);
+    background-color: var(--second-bg-color);
+    transform: scale(1.1);
+    border-radius: 4px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .header__boton {
+        width: 11rem;
+        padding: 0.8rem;
+    }
+
+}
+
+@media (max-width: 617px) {
+    .header__boton {
+        width: 9rem;
+        padding: 0.8rem;
+    }
+
+}

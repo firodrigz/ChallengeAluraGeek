@@ -1,0 +1,35 @@
+.header__lupa {
+    width: 1.4rem;
+    height: 1.4rem;
+    flex-shrink: 0;
+    background-image: url("../../img/header/Icone.png");
+    background-repeat: no-repeat;
+}
+
+.header__lupa2 {
+    width: 1.4rem;
+    height: 1.4rem;
+    flex-shrink: 0;
+    background-image: url("../../img/header/Icone2.png");
+    background-repeat: no-repeat;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-left: 10px;
+    display: none;
+   
+}
+
+@media (max-width: 617px) {
+    .header__lupa2 {
+        display: block;
+    }
+}
+
+
+.lupaNone {
+    display: flex;
+}
+
+.lupaNone2 {
+    opacity: 0;
+}

@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    width: 100%;
+    padding: 1.9rem 9%;
+    align-items: center;
+    background: var(--bg-color);
+    position: relative;
+    overflow: visible;
+    gap: .7rem;
+}
+
+@media (max-width: 617px) {
+    .header {
+        justify-content: space-around;
+        padding: 1rem;
+    }
+}
