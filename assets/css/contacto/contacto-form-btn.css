@@ -1,0 +1,24 @@
+.contacto__form__btn {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background: var(--second-bg-color);
+    color: var(--bg-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s ease;
+
+}
+
+.contacto__form__btn:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+    background-color: var(--text-color);
+    box-shadow: 0 2px 4px var(--second-bg-color);
+    border-radius: 5px;
+}

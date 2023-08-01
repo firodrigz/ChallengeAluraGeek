@@ -1,0 +1,29 @@
+.contacto {
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 7.1875rem;
+    align-self: stretch;
+    background-color: rgba(48, 199, 181, 0.3);
+    
+}
+
+@media (max-width: 768px) {
+    .contacto {
+        gap: 0;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto {
+        gap: 2rem;
+        flex-direction: column;
+        padding: 1rem;
+        width: 100vw;
+        align-content: center;
+
+    }
+}

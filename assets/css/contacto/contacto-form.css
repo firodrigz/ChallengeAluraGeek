@@ -1,0 +1,40 @@
+.contacto__form form {
+    display: flex;
+    width: 29rem;
+    height: 15rem;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    color: #464646;
+    font-size: 1.2rem;
+    font-family: 'Raleway';
+    font-style: bold;
+    font-weight: 700;
+    line-height: normal;
+    gap: 1rem;
+}
+
+@media (max-width: 991px) {
+    .contacto__form {
+        align-self: flex-start;
+    }
+    .contacto__form form {
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacto__form {
+        align-self: flex-start;
+    }
+    .contacto__form form {
+        width: auto;
+    }
+}
+
+@media (max-width: 617px) {
+    .contacto__form form {
+        width: auto;
+        height: auto;
+    }
+}

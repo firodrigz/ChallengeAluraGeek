@@ -1,0 +1,49 @@
+.contacto__link  {
+    display: flex;
+    width: 11rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-shrink: 0;
+    color: #464646;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contacto__link  a{
+    color: #464646;
+}
+
+.contacto__link img {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .contacto__link {
+        width: 21.17vw;
+        margin-right: auto;
+    }
+
+    .contacto__link img {
+        display: flex;
+        width: 11rem;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .contacto__link {
+        width: auto;
+        margin-right: auto;
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+    }
+
+    .contacto__link img {
+        width: auto;
+    }
+}

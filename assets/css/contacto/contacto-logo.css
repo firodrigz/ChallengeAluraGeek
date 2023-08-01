@@ -1,0 +1,13 @@
+.contacto__logo {
+    display: flex;
+    width: 12.5vw;
+    height: 15rem;
+    align-items: flex-start;
+}
+
+
+@media (max-width: 768px) {
+    .contacto__logo {
+        display: none;
+    }
+}
