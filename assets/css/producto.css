@@ -1,0 +1,10 @@
+.producto {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    width: 98.9vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    
+}

@@ -1,0 +1,17 @@
+.producto__barra__titulo__boton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--second-bg-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5 ease;
+
+}
+
+.producto__barra__titulo__boton:hover{
+    transform: scale(1.09);
+}

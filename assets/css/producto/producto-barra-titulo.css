@@ -1,0 +1,20 @@
+.producto__barra__titulo {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .producto__barra__titulo {
+        width: 90vw;
+    }
+
+}
+
+@media (max-width: 378px) {
+    .producto__barra__titulo {
+        width: 95vw;
+    }
+
+}

@@ -1,0 +1,12 @@
+.producto__barra__lista__item__imagen {
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    box-shadow: 0 0 0.5rem rgb(28, 27, 27);
+    width: 160px;
+    height: 162.172px;
+}
+
+
+
+

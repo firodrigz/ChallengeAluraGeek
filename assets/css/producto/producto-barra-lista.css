@@ -1,0 +1,27 @@
+.producto__barra__lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 81vw;
+    max-height: 245px;
+    overflow: hidden;
+    gap: 1rem;
+    padding: 0.5rem;
+    
+}
+
+@media (max-width: 768px) {
+    .producto__barra__lista {
+        width: 91vw;
+    }
+
+}
+
+@media (max-width: 378px) {
+    .producto__barra__lista {
+        width: 95vw;
+        padding: 0.5rem;
+    }
+
+}

@@ -1,0 +1,19 @@
+.producto__barra__lista__item__link {
+    color: var(--second-bg-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s ease;
+    padding-left: .3em;
+    margin-bottom: 4rem;
+
+}
+
+.producto__barra__lista__item__link:hover{
+    color: var(--text-color);
+    text-shadow: 
+    2px 2px 4px #30c7b5,
+    -2px -2px 4px #30c7b5;
+}

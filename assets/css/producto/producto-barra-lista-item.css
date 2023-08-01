@@ -1,0 +1,25 @@
+.producto__barra__lista__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 160px;
+}
+
+.producto__barra__lista__item h5 {
+    color: var(--preto-100, #464646);
+    font-size: 0.875rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.producto__barra__lista__item h6 {
+    color: #464646;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

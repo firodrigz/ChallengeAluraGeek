@@ -1,0 +1,5 @@
+.producto__barra__titulo__boton__flecha {
+    background-image: url("../../img/producto/flecha_azul.png");
+    width: 1.5rem;
+    height: 1.5rem;
+}

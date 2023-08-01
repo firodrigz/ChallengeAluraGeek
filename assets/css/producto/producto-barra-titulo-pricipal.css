@@ -1,0 +1,15 @@
+.producto__barra__titulo__principal h2{
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .producto__barra__titulo__principal h2{
+        font-size: 1.4rem
+    }
+
+}
