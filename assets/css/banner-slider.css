@@ -1,0 +1,188 @@
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    padding: 3rem;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.banner_span1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%),
+     url("../img/banner/banner-EikUsWkXYAE1Sct.jpg"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner_span2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%,
+            rgba(0, 0, 0, .2) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%,
+            rgba(0, 0, 0, .8) 100%),
+        url("../img/banner/banner-oXjnpkIK0gJMThZGMQDgEafLDA.webp"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner_span3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%), 
+    url("../img/banner/Videoconsola_05.jpg"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner_span4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%),
+     url("../img/banner/Banner_ps5_900x338.jpg"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner__nav-content {
+    width: calc(200px + 2.4em);
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 1.2em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em
+}
+
+.banner_nav {
+    background: #FFFFFF;
+    height: 5px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.banner_nav--select {
+    background: #30c7b5
+}
+
+.banner__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    width: 100%;
+    padding: 0 5vw;
+}
+
+.banner__titulo {
+    font-size: 3.6vw;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.banner__verConsolas {
+    font-size: .875rem;
+    font-weight: 600;
+    background-color: #2A7AE4;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    box-shadow: #64646f33 0 7px 29px;
+    transition: transform .5s
+}
+
+.banner__verConsolas:hover {
+    transform: scale(1.05)
+}
+
+.banner__ofertas {
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 991px) {
+    .banner__ofertas{
+    font-size: 1.2rem; 
+    }   
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 352px;
+        padding: 2rem
+    }
+
+    .banner__contenido {
+        padding: 0 0;
+    }
+
+    .banner__titulo__principal {
+        font-size: 3.4rem;
+    }
+
+    .banner__ofertas {
+        font-size: 1.375rem;
+        font-weight: 700
+    }
+
+    .banner__nav-content {
+        width: calc(140px + 2.4em);
+        transform: none;
+        left: auto;
+        top: 92%;
+    }
+
+    .banner_nav {
+        height: 3px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 617px) {
+    .banner__ofertas {
+        font-size: 1rem;        
+    }
+
+}
+
+@media (max-width: 520px) {
+    .banner {
+        height: 190px;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+    .banner__contenido {
+        gap: 0.5rem;
+    }
+    .banner__titulo {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    
+    .banner__ofertas {
+        font-size: 0.875rem;
+    }
+}
+
+
+
+
+
+
+
+
