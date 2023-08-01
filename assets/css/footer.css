@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 7%;
+    color: var(--bg-color);
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 98.9vw;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-iconTop {
+    margin-left: auto;
+}
+
+.footer-iconTop a {
+    color: var(--bg-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background:var(--second-bg-color);
+    border-radius: .8rem;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color);
+}
