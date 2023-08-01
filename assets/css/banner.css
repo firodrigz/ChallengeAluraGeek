@@ -1,0 +1,13 @@
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    width: 100vw;
+    
+    
+}
+

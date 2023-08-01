@@ -1,0 +1,39 @@
+.banner__titulo__second {
+    font-size: 1.375rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:  #FFF;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 0.8rem 0;
+}
+
+@media (max-width: 991px) {
+    .banner__titulo__second{
+    font-size: 1.2rem; 
+    }   
+}
+
+@media (max-width: 768px) {
+    .banner__titulo__second {
+        font-size: 1.375rem;
+        margin: 0.4rem 0;
+    }
+
+}
+
+@media (max-width: 617px) {
+    .banner__titulo__second {
+        font-size: 1rem;        
+    }
+
+}
+
+@media (max-width: 480px) {
+    .banner__titulo__second {
+        font-size: .7rem;        
+    }
+
+}
+

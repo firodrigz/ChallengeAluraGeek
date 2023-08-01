@@ -1,0 +1,62 @@
+.banner__boton {
+    
+    padding: 1rem;
+    background: var(--second-bg-color);
+    color: var(--bg-color);
+    font-size: .8rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 11vw;
+    transition: .5s ease;
+}
+
+.banner__boton:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color) ;
+    color:var(--second-bg-color);
+    background-color: #fff ;
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+    .banner__boton{
+    width: 13vw; 
+    }   
+}
+
+@media (max-width: 768px) {
+    .banner__boton {
+        width: 14vw;
+        padding: .8rem;
+    }
+
+}
+
+@media (max-width: 617px) {
+    .banner__boton {
+        width: 15vw;
+        padding: .7rem;
+        font-size: .6rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .banner__boton {
+        width: 20vw;        
+    }
+
+}
+
+@media (max-width: 378px) {
+    .banner__boton {
+        width: 23vw;        
+    }
+
+}
+
+
