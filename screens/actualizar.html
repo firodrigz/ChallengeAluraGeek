@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek-Agregar</title>
+    <link rel="icon" href="../assets/img/header/sport.png" type="image/png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/header/header-logo.css">
+    <link rel="stylesheet" href="../assets/css/header/header-buscar.css">
+    <link rel="stylesheet" href="../assets/css/header/header-input.css">
+    <link rel="stylesheet" href="../assets/css/header/header-lupa.css">
+    <link rel="stylesheet" href="../assets/css/header/header-boton.css">
+    <link rel="stylesheet" href="../assets/css/banner.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-img.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-titulos.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-titulo-principal.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-titulo-second.css">
+    <link rel="stylesheet" href="../assets/css/banner/banner-boton.css">
+    <link rel="stylesheet" href="../assets/css/producto.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-lista-item.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-lista.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-lista-item-imagen.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-lista-item-link.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-titulo.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-titulo-pricipal.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-titulo-boton.css">
+    <link rel="stylesheet" href="../assets/css/producto/producto-barra-titulo-boton-flecha.css">
+    <link rel="stylesheet" href="../assets/css/contacto.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-logo.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-link.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-form.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-form-nombre.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-form-textArea.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-form-btn.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/logueo.css">
+    <link rel="stylesheet" href="../assets/css/agregar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <!-- zona cabecera -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="../index.html"><img src="../assets/img/header/Logo.png" alt="logo AluraGeek" id="index"></a>
+        </div>
+        <div class="header__buscar">
+            <input class="header__input" type="text" id="header-input" name="header-input"
+                placeholder="¿Qué deseas buscar?">
+            <a href="#" class="header__lupa" id="btnBuscar"></a>
+        </div>
+        <a href="productoedit.html" class="header__boton menu">Menú Administrador</a>
+        <a href="#" class="header__lupa2"></a>
+
+    </header>
+
+    <!-- zona agregar -->
+
+
+    <section class="agregar">
+        <div class="agregar__container">
+            <form data-form>
+                <h1 class="agregar__container__heading">Actualizar Producto</h1>
+                <div class="login__form__usuario">
+                    <input class="input" type="text" placeholder="Nombre del producto" required maxlength="30"
+                        data-nombre>
+                    <label class="input-label" for="nombre">Nombre del producto</label>
+                </div>
+                <select class="login__form__usuario select" required data-categoria id="categoria" name="categoria">
+                    <option value="" disabled selected>Categoria</option>
+                    <option value="Star Wars">Star Wars</option>
+                    <option value="Consolas">Consolas</option>
+                    <option value="Diversos">Diversos</option>
+                </select>
+                <div class="login__form__usuario">
+                    <input class="input" type="text" placeholder="Precio del produtco" required type="number"
+                        max="99999" data-precio>
+                    <label class="input-label" for="nombre">Precio del produtco</label>
+                </div>
+                <div class="login__form__usuario">
+                    <input class="input" type="text" placeholder="Url de la Imagen"
+                        pattern="^.*\.(jpg|jpeg|png|gif|svg|webp)$" required data-imagen>
+                    <label class="input-label" for="nombre">Url de la Imagen</label>
+                </div>
+
+                <div class="login__form__usuario descripcion">
+                    <input class="input" type="text" placeholder="Descripción del producto" maxlength="400" required
+                        data-descripcion>
+                    <label class="input-label" for="nombre">Descripción del producto</label>
+                </div>
+                <input type="submit" value="Actualizar producto" class="login__form__btn">
+            </form>
+        </div>
+    </section>
+    <section class="espacio"></section>
+
+    <!-- zona contacto -->
+    <section class="contacto">
+        <div class="contacto__logo">
+            <img src="../assets/img/header/Logo.png" alt="Logo">
+        </div>
+        <div class="contacto__link">
+            <img src="../assets/img/header/Logo.png" alt="Logo">
+            <a href="#">Quienes somos</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Programa de fidelidad</a>
+            <a href="#">Nuestras Tiendas</a>
+            <a href="#">Quiero ser franquiciado</a>
+            <a href="#">Anúncie aquí</a>
+        </div>
+        <div class="contacto__form">
+            <form action="">
+                <h5>Hable con nosotros</h5>
+                <input class="contacto__form__nombre" type="text" placeholder="Nombre Completo">
+                <textarea class="contacto__form__textArea" name="" id="" cols="60" rows="3"
+                    placeholder="Escribe tu mensaje"></textarea>
+                <input type="submit" value="Enviar mensaje" class="contacto__form__btn">
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Desarrollado por Guillermo Andrade <br>
+                2023</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="module" src="../controllers/actualizar.controller.js"></script>
+<script src="../assets/js/busquedaq2.js"></script>
+<script src="../assets/js/script.js"></script>
+
+
+</html>
