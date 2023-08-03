@@ -1,0 +1,29 @@
+.detalle__producto__imagen img {
+    width: 30rem;
+    height: 25.1875rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 0.5rem rgb(28, 27, 27);
+}
+
+@media (max-width: 768px) {
+    .detalle__producto__imagen img{
+        width: 30vw;
+        height: 22vw;
+        margin-left: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 0 0.5rem rgb(28, 27, 27);
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .detalle__producto__imagen img{
+        width: 100%;
+        height: 18rem;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

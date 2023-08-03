@@ -1,0 +1,23 @@
+.detalle__producto{
+    display: flex;
+    width: 81vw;
+    height: auto;
+    gap: 1.1rem;
+
+}
+
+@media (max-width: 768px) {
+    .detalle__producto{
+        width: 90vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .detalle__producto{
+        width: 101vw;
+        flex-direction: column;
+        
+    }
+}
+

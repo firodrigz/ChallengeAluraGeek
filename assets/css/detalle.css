@@ -1,0 +1,168 @@
+.detalle {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    width: 98.9vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.producto__barra__lista__item__link {
+    margin: 0;
+}
+
+/* images */
+
+.slick-list {
+
+    display: flex;
+    align-items: center;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    width: 81vw;
+    overflow: hidden;
+}
+
+.slick-track {
+    flex-wrap: nowrap;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+
+}
+
+.slick {
+    position: relative;
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0.5rem;
+    padding-left: 20px;
+}
+
+.slick h5 {
+    color: var(--preto-100, #464646);
+    font-size: 0.875rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.slick h6 {
+    color: #464646;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slick img {
+    object-fit: cover;
+    width: 160px;
+    height: 162.172px;
+    align-self: stretch;
+    border-radius: 8px;
+    box-shadow: 0 0 0.5rem rgb(28, 27, 27);
+    transition: .3s ease-in-out;
+}
+
+/* buttons */
+
+.slick-arrow {
+    border-radius: 30px;
+    background-color: #c0eee9;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
+    border: 0;
+    cursor: pointer;
+    transition: .5 ease;
+
+}
+
+.slick-arrow:hover {
+    border-radius: 30px;
+    background-color: var(--bg-color);
+    
+
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow svg {
+    width: 12px;
+    height: 100%;
+    color: var(--second-bg-color);
+}
+
+.slick-prev {
+    left: 30px;
+}
+
+.slick-next {
+    right: 30px;
+}
+
+@media (max-width: 768px) {
+    .slick-list {
+        width: 80vw;
+        padding-left: 10px;
+    }
+
+    .slick-prev {
+        left: 25px;
+    }
+
+    .slick-next {
+        right: 25px;
+    }
+}
+@media (max-width: 480px) {
+
+    .detalle {
+        margin-top: 0;
+    }
+
+    .slick-list {
+        width: 91vw;
+        padding: 0.5rem;
+        padding-left: 1rem;
+    }
+
+    .slick {
+        width: 180px;
+        padding-left: 0;
+
+    }
+
+    .slick-arrow {
+        
+        width: 40px;
+        height: 40px;
+    }
+
+    .slick-prev {
+        left: 8px;
+    }
+
+    .slick-next {
+        right: 8px;
+    }
+}
+
