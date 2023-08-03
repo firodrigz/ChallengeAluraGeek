@@ -1,0 +1,185 @@
+.menu {
+    width: 11.5rem;
+}
+
+
+.espacio {
+    height: 600px;
+    width: 1px;
+}
+
+.agregar {
+    background-image: url("../img/logueo/illustration-video-games-text-consoles-Pok-mon-Toy-120379-wallhere.com.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+
+.agregar::before {
+    position: absolute;
+    content: '';
+    background-color: #464646;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+
+.agregar__container {
+    position: relative;
+    width: 60%;
+    height: 35rem;
+    padding: 0 3rem;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 1rem;
+
+}
+
+
+.agregar__container__heading {
+    align-self: flex-start;
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.agregar__container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.login__form__usuario {
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background-color: #30c7b55a;
+    padding: 1rem;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    z-index: 2;
+
+}
+
+.select {
+    cursor: pointer;
+}
+
+.descripcion {
+    height: 6rem;
+    resize: none;
+
+}
+
+.descripcion::placeholder {
+    align-self: flex-start;
+}
+
+.login__form__btn {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    flex-shrink: 0;
+    border-radius: 3px;
+    color: var(--second-bg-color);
+    background-color: #14261cee;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s ease;
+}
+
+.login__form__btn:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    color: var(--bg-color);
+    background-color: var(--second-bg-color);
+    transform: scale(1.1);
+    border-radius: 4px;
+    border: none;
+}
+
+
+.input {
+    height: 2rem;
+    width: 100%;
+    font-family: 'Raleway';
+    background: transparent;
+    font-size: 0.9rem;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.85rem;
+    font-family: 'Raleway';
+    z-index: -1;
+    color: #707070;
+
+    transition: all 0.25s;
+}
+
+.input:not(:placeholder-shown)+.input-label,
+.input:focus+.input-label {
+    font-size: 0.65rem;
+    top: 0.2rem;
+    transition: all 0.25s;
+    color: #000000;
+}
+
+
+@media (max-width: 991px) {
+    .agregar__container {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 766px) {
+    .agregar {
+        overflow: hidden
+    }
+
+    .agregar__container {
+        padding: 0 0;
+        width: 80%;
+    }
+}
+
+@media (max-width: 565px) {
+    .agregar__container {
+        padding: 0 0;
+        width: 90%;
+    }
+}
