@@ -1,0 +1,168 @@
+.espacio {
+    height: 600px;
+    width: 1px;
+}
+
+.logueo {
+    background-image: url("../img/logueo/illustration-video-games-text-consoles-Pok-mon-Toy-120379-wallhere.com.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+
+.logueo::before {
+    position: absolute;
+    content: '';
+    background-color: #30c7b5;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+
+
+.login {
+    position: relative;
+    width: 360px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 1rem #30c7b5;
+
+}
+
+.login:before,
+.login__circuit-mask {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 682px;
+    height: 514px;
+}
+
+.login:before {
+    background: url(../img/logueo/bg-circuito.svg);
+}
+
+.login__circuit-mask {
+    display: grid;
+    place-items: center;
+    -webkit-mask: url(../img/logueo/bg-circuito.svg);
+    mask: url(../img/logueo/bg-circuito.svg);
+}
+
+.login__circuit-mask:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #00f0ff;
+    animation: onda 8s infinite;
+    animation-delay: 3s;
+}
+
+.login__heading {
+    text-align: center;
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@keyframes onda {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(8);
+    }
+
+    100% {
+        transform: scale(8);
+    }
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.login__form__usuario {
+    width: 90%;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background-color: #30c7b55a;
+    padding: 1rem;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    z-index: 2;
+
+}
+
+.login__form__password {
+    width: 90%;
+    height: 3rem;
+    border-radius: 0.25rem;
+    background-color: #30c7b55a;
+    padding: 1rem;
+    font-family: 'Raleway';
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    z-index: 2;
+
+}
+
+.login__form__btn {
+    width: 11.375rem;
+    height: 3rem;
+    padding: 1rem;
+    flex-shrink: 0;
+    border-radius: 3px;
+    color: var(--second-bg-color);
+    background-color: #14261cee;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s ease;
+}
+
+.login__form__btn:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    color: var(--bg-color);
+    background-color: var(--second-bg-color);
+    transform: scale(1.1);
+    border-radius: 4px;
+    border: none;
+}
+
+@media (max-width: 766px) {
+    .logueo {
+        overflow: hidden
+    }
+}
