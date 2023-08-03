@@ -1,0 +1,25 @@
+.sinResultados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sinResultados img {
+    width: 35vw;
+}
+
+
+.sinResultados h1 {
+    font-family: 'Raleway';
+    font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+    .sinResultados h1 {
+        font-size: 1rem;
+    }
+    .sinResultados img {
+        width: 55vw;
+    }
+}
