@@ -38,6 +38,31 @@
     transition: 200ms;
 }
 
+@media screen and (max-width: 1200px){
+    .footer__copyright {
+        font-size: 1.5vw;
+        padding: 0 2%;
+    }
+}
 
+@media screen and (max-width: 620px){
+    .footer__copyright{
+        flex-direction: column;
+        font-size: 2.5vw;
+    }
 
+    .footer__info{
+        padding-bottom: 1rem;
+    }
+
+    .footer__icono{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer__copyright{
+        font-size: 3.5;
+    }
+}
   
