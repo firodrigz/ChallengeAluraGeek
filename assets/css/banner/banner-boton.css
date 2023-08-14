@@ -1,7 +1,7 @@
 .banner__boton {
     
     padding: 1rem;
-    background: var(--second-bg-color);
+    background: var(--text-color2);
     color: var(--bg-color);
     font-size: .8rem;
     font-family: 'Raleway';
@@ -16,7 +16,7 @@
 
 .banner__boton:hover {
     box-shadow: 0 0 1rem var(--second-bg-color) ;
-    color:var(--second-bg-color);
+    color:var(--text-color2);
     background-color: #fff ;
     transform: scale(1.1);
     border-radius: 4px;

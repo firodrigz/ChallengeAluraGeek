@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    background: var(--second-bg-color);
+    background: var(--text-color2);
     color: var(--bg-color);
     font-size: 1rem;
     font-family: 'Raleway';
@@ -20,5 +20,6 @@
     cursor: pointer;
     background-color: var(--text-color);
     box-shadow: 0 2px 4px var(--second-bg-color);
+    color:var(--text-color2);
     border-radius: 5px;
 }

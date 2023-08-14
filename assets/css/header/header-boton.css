@@ -20,7 +20,7 @@
 .header__boton:hover {
     box-shadow: 0 0 1rem var(--second-bg-color);
     color: var(--bg-color);
-    background-color: var(--second-bg-color);
+    background-color: var(--text-color2);;
     transform: scale(1.1);
     border-radius: 4px;
     border: none;
