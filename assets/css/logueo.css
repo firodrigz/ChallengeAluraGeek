@@ -20,7 +20,7 @@
 .logueo::before {
     position: absolute;
     content: '';
-    background-color: #30c7b5;
+    background-color: #92c9dd;
     z-index: -1;
     height: 100%;
     width: 100%;
@@ -36,7 +36,7 @@
     padding: 20px;
     border-radius: 10px;
     background: #fff;
-    box-shadow: 0 0 1rem #30c7b5;
+    box-shadow: 0 0 1rem #92c9dd;
 
 }
 
@@ -70,7 +70,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 3px solid #00f0ff;
+    border: 3px solid #92c9dd;
     animation: onda 8s infinite;
     animation-delay: 3s;
 }
@@ -110,7 +110,7 @@
     width: 90%;
     height: 3rem;
     border-radius: 0.25rem;
-    background-color: #30c7b55a;
+    background-color: #92c9dd;
     padding: 1rem;
     font-family: 'Raleway';
     font-size: 0.8rem;
@@ -125,7 +125,7 @@
     width: 90%;
     height: 3rem;
     border-radius: 0.25rem;
-    background-color: #30c7b55a;
+    background-color: #92c9dd;
     padding: 1rem;
     font-family: 'Raleway';
     font-size: 0.8rem;
