@@ -15,16 +15,14 @@
     --bg-color: #0B141E;
     --second-bg-color: #00ABF0;
     --text-color: #FFF;
-    --text-color2: #2A7AE4;
-    
+    --text-color2: #2A7AE4;    
 }
 
 
 @media (max-width: 1200px) {
     html {
         font-size: 90%;
-    }
-   
+    }   
 }
 
 

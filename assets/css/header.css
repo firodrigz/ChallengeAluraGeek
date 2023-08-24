@@ -86,7 +86,7 @@
     width: 1.4rem;
     height: 1.4rem;
     flex-shrink: 0;
-    background-image: url("../../img/header/Icone.png");
+    background-image: url("../img/header/Icone.png");
     background-repeat: no-repeat;
 }
 
@@ -94,7 +94,7 @@
     width: 1.4rem;
     height: 1.4rem;
     flex-shrink: 0;
-    background-image: url("../../img/header/Icone2.png");
+    background-image: url("../img/header/Icone2.png");
     background-repeat: no-repeat;
     padding: 0.5rem 1rem;
     text-align: center;

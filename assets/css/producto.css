@@ -81,7 +81,7 @@
 
 /* producto-barra-titulo-boton-flecha */
 .producto__barra__titulo__boton__flecha {
-    background-image: url("../../img/producto/flecha_azul.svg");
+    background-image: url("../img/producto/flecha_azul.svg");
     width: 1.5rem;
     height: 1.5rem;
 }

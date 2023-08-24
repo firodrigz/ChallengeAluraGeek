@@ -62,7 +62,7 @@
 
 .banner_span1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%),
-     url("../../img/banner/banner-EikUsWkXYAE1Sct.jpg"), lightgray 50%;
+     url("../img/banner/banner-EikUsWkXYAE1Sct.jpg"), lightgray 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +74,7 @@
             rgba(0, 0, 0, .2) 100%),
         linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%,
             rgba(0, 0, 0, .8) 100%),
-        url("../../img/banner/banner-oXjnpkIK0gJMThZGMQDgEafLDA.webp"), lightgray 50%;
+        url("../img/banner/banner-oXjnpkIK0gJMThZGMQDgEafLDA.webp"), lightgray 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,7 +83,7 @@
 
 .banner_span3 {
     background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%), 
-    url("../../img/banner/Videoconsola_05.jpg"), lightgray 50%;
+    url("../img/banner/Videoconsola_05.jpg"), lightgray 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +92,7 @@
 
 .banner_span4 {
     background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%),
-     url("../../img/banner/Banner_ps5_900x338.jpg"), lightgray 50%;
+     url("../img/banner/Banner_ps5_900x338.jpg"), lightgray 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

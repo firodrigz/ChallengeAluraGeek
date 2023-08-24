@@ -5,8 +5,7 @@
     padding: 20px;
     border-radius: 10px;
     background: #fff;
-    box-shadow: 0 0 1rem #30c7b5;
-
+    box-shadow: 0 0 1rem #92c9dd;
 }
 
 .satisfactorio:before {
@@ -20,7 +19,6 @@
     width: 682px;
     height: 514px;
 }
-
 
 .satisfactorio form {
     display: flex;
