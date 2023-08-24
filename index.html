@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,45 +8,17 @@
     <link rel="icon" href="assets/img/header/sport.ico" type="image/png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/header/header-logo.css">
-    <link rel="stylesheet" href="assets/css/header/header-buscar.css">
-    <link rel="stylesheet" href="assets/css/header/header-input.css">
-    <link rel="stylesheet" href="assets/css/header/header-lupa.css">
-    <link rel="stylesheet" href="assets/css/header/header-boton.css">
     <link rel="stylesheet" href="assets/css/banner.css">
-    <link rel="stylesheet" href="assets/css/banner/banner-img.css">
-    <link rel="stylesheet" href="assets/css/banner/banner-titulos.css">
-    <link rel="stylesheet" href="assets/css/banner/banner-titulo-principal.css">
-    <link rel="stylesheet" href="assets/css/banner/banner-titulo-second.css">
-    <link rel="stylesheet" href="assets/css/banner/banner-boton.css">
     <link rel="stylesheet" href="assets/css/producto.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-lista-item.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-lista.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-lista-item-imagen.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-lista-item-link.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-titulo.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-titulo-pricipal.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-titulo-boton.css">
-    <link rel="stylesheet" href="assets/css/producto/producto-barra-titulo-boton-flecha.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-logo.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-link.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-form.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-form-nombre.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-form-textArea.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-form-btn.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/banner-slider.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/7bb6148dc3.js" crossorigin="anonymous"></script>
-
-
 </head>
 
-<body>
-    <!-- zona cabecera -->
+<body>    
+    <!-- Header -->
     <header class="header">
         <div class="header__logo">
             <img src="assets/img/header/logo.svg" alt="">
@@ -58,12 +30,9 @@
         </div>
         <a href="screens/login.html" class="header__boton" id="loginLink">Login</a>
         <a href="#" class="header__lupa2" onclick=""></a>
-
-
     </header>
 
-    <!-- zona banner slider-->
-
+    <!-- Banner Slider-->
     <section class="banner banner_span1">
         <div class="banner__contenido contenedor">
           <h1 class="banner__titulo">Febrero Promocional</h1>
@@ -75,10 +44,9 @@
             class="banner_nav"></span></nav>
         </section>
 
-
-    <!-- zona productos -->
+    <!-- Productos -->
     <section class="producto">
-        <!-- zona barra de productos -->
+        <!-- Barra de productos -->
         <div class="producto__barra">
             <div class="producto__barra__titulo">
                 <div class="producto__barra__titulo__principal">
@@ -89,12 +57,11 @@
                     <div class="producto__barra__titulo__boton__flecha"></div>
                 </a>
             </div>
-            <div class="producto__barra__lista" data-producto-starwars>
-              
+            <div class="producto__barra__lista" data-producto-starwars>              
             </div>
         </div>
 
-        <!-- zona barra de productos -->
+        <!-- Barra de productos -->
         <div class="producto__barra">
             <div class="producto__barra__titulo">
                 <div class="producto__barra__titulo__principal">
@@ -104,14 +71,12 @@
                     <h4>Ver todo</h4>
                     <div class="producto__barra__titulo__boton__flecha"></div>
                 </a>
-
             </div>
-            <div class="producto__barra__lista" data-producto-consolas>
-                
+            <div class="producto__barra__lista" data-producto-consolas>                
             </div>
         </div>
 
-        <!-- zona barra de productos -->
+        <!-- Barra de productos -->
         <div class="producto__barra">
             <div class="producto__barra__titulo">
                 <div class="producto__barra__titulo__principal">
@@ -121,14 +86,13 @@
                     <h4>Ver todo</h4>
                     <div class="producto__barra__titulo__boton__flecha"></div>
                 </a>
-
             </div>
-            <div class="producto__barra__lista" data-producto-diversos>
-                
+            <div class="producto__barra__lista" data-producto-diversos>                
             </div>
         </div>
     </section>
-    <!-- zona contacto -->
+
+    <!-- Contacto -->
     <section class="contacto">
         <div class="contacto__logo">
             <img src="assets/img/header/logo.svg" alt="Logo">
@@ -151,9 +115,9 @@
                 <input type="submit" value="Enviar mensaje" class="contacto__form__btn">
             </form>
         </div>
-
     </section>
 
+    <!-- Footer -->
     <footer class="footer__container">
         <div class="footer__copyright">
             <h5>&copy; Rodríguez Facundo Iván</h5>
@@ -170,5 +134,4 @@
 <script src="assets/js/script.js"></script>
 <script src="assets/js/banner-slider.js"></script>
 <script type="module" src="controllers/productos.index.js"></script>
-
 </html>

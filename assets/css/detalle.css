@@ -1,3 +1,7 @@
+@import url(/assets/css/detalle/detalle-producto-card.css);
+@import url(/assets/css/detalle/detalle-producto-imagen.css);
+@import url(/assets/css/detalle/detalle-producto.css);
+
 .detalle {
     margin-top: 4rem;
     margin-bottom: 4rem;

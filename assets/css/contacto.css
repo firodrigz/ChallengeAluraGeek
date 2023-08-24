@@ -1,3 +1,10 @@
+@import url(/assets/css/contacto/contacto-form-btn.css);
+@import url(/assets/css/contacto/contacto-form-nombre.css);
+@import url(/assets/css/contacto/contacto-form-textArea.css);
+@import url(/assets/css/contacto/contacto-form.css);
+@import url(/assets/css/contacto/contacto-link.css);
+@import url(/assets/css/contacto/contacto-logo.css);
+
 .contacto {
     display: flex;
     padding: 4rem;
