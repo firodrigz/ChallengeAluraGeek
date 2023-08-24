@@ -1,9 +1,3 @@
-@import url(./header/header-boton.css);
-@import url(./header/header-buscar.css);
-@import url(./header/header-input.css);
-@import url(./header/header-logo.css);
-@import url(./header/header-lupa.css);
-
 .header {
     display: flex;
     width: 100%;
@@ -15,9 +9,144 @@
     gap: .7rem;
 }
 
+/* header-boton */
+.header__boton {
+    display: flex;
+    width: 11.375rem;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    flex-shrink: 0;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: .5s ease;
+}
+
+.header__boton:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    color: var(--bg-color);
+    background-color: var(--text-color2);;
+    transform: scale(1.1);
+    border-radius: 4px;
+    border: none;
+}
+
+
+/* header-buscar */
+.header__buscar {
+    display: flex;
+    width: 24.5625rem;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: #F5F5F5;
+    justify-content: space-between;
+    transition: .5s ease;
+}
+
+.miclase {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    right: 5vw;
+    z-index: 1;
+    box-shadow: 0 0 1rem var(--second-bg-color);
+}
+
+/* header-input */
+.header__input {
+    color: #A2A2A2;
+    font-size: 0.875rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    background: none;
+    width: 90%;    
+}
+
+/* header-logo */
+.header__logo{
+    display: flex;
+    width: 11rem;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 2rem;     
+}
+
+/* header-lupa */
+.header__lupa {
+    width: 1.4rem;
+    height: 1.4rem;
+    flex-shrink: 0;
+    background-image: url("../../img/header/Icone.png");
+    background-repeat: no-repeat;
+}
+
+.header__lupa2 {
+    width: 1.4rem;
+    height: 1.4rem;
+    flex-shrink: 0;
+    background-image: url("../../img/header/Icone2.png");
+    background-repeat: no-repeat;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-left: 10px;
+    display: none;   
+}
+
+.lupaNone {
+    display: flex;
+}
+
+.lupaNone2 {
+    opacity: 0;
+}
+
+@media (max-width: 768px) {
+    .header__boton {
+        width: 11rem;
+        padding: 0.8rem;
+    }
+
+    .header__buscar {
+        width: 17rem;
+        height: 3rem;
+    }
+
+    .header__logo{
+        width: 9rem;
+    }
+    .header__logo img{
+        width: 8rem;
+    }
+
+}
+
 @media (max-width: 617px) {
     .header {
         justify-content: space-around;
         padding: 1rem;
+    }
+
+    .header__boton {
+        width: 9rem;
+        padding: 0.8rem;
+    }
+
+    .header__buscar {
+        display: none;
+        order: 2;
+    }
+
+    .header__lupa2 {
+        display: block;
     }
 }

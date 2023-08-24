@@ -1,10 +1,3 @@
-@import url(/banner/banner-boton.css);
-@import url(/banner/banner-img.css);
-@import url(/banner/banner-titulo-principal.css);
-@import url(/banner/banner-titulo-second.css);
-@import url(/banner/banner-titulos.css);
-@import url(/banner/banner-slider.css);
-
 .banner {
     position: relative;
     display: flex;
@@ -13,6 +6,342 @@
     align-items: center;
     max-width: 100%;
     overflow: hidden;
-    width: 100vw;    
+    width: 100vw;   
 }
 
+/* banner-boton */
+.banner__boton {
+    
+    padding: 1rem;
+    background: var(--text-color2);
+    color: var(--bg-color);
+    font-size: .8rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 11vw;
+    transition: .5s ease;
+}
+
+.banner__boton:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color) ;
+    color:var(--text-color2);
+    background-color: #fff ;
+    transform: scale(1.1);
+    border-radius: 4px;
+}
+
+/* banner-img */
+.banner__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner__img2 {
+    display: none;
+}
+
+
+/* banner-slider */
+.banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    padding: 3rem;
+    position: relative;
+    transition: .3s ease-in-out;
+}
+
+.banner_span1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%),
+     url("../../img/banner/banner-EikUsWkXYAE1Sct.jpg"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner_span2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%,
+            rgba(0, 0, 0, .2) 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%,
+            rgba(0, 0, 0, .8) 100%),
+        url("../../img/banner/banner-oXjnpkIK0gJMThZGMQDgEafLDA.webp"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner_span3 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%), 
+    url("../../img/banner/Videoconsola_05.jpg"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner_span4 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, .8) 100%),
+     url("../../img/banner/Banner_ps5_900x338.jpg"), lightgray 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner__nav-content {
+    width: calc(200px + 2.4em);
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 1.2em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em
+}
+
+.banner_nav {
+    background: #FFFFFF;
+    height: 5px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.banner_nav--select {
+    background: var(--text-color2);
+}
+
+.banner__contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    width: 100%;
+    padding: 0 5vw;
+}
+
+.banner__titulo {
+    font-size: 3.6vw;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.banner__verConsolas {
+    font-size: .875rem;
+    font-weight: 600;
+    background-color: #2A7AE4;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem 1rem;
+    cursor: pointer;
+    box-shadow: #64646f33 0 7px 29px;
+    transition: transform .5s
+}
+
+.banner__verConsolas:hover {
+    transform: scale(1.05)
+}
+
+.banner__ofertas {
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+/* banner-titulo-principal */
+.banner__titulo__principal {
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.6vw;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 0.8rem 0;
+}
+
+/* banner-titulo-second */
+.banner__titulo__second {
+    font-size: 1.375rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color:  #FFF;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 0.8rem 0;
+}
+
+/* banner-titulos */
+.banner__titulos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -35%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 1200px) {
+    .banner__titulos {
+        transform: translate(-80%, -42%);
+    }    
+}
+
+@media (max-width: 991px) {
+    .banner__boton{
+    width: 13vw; 
+    }   
+
+    .banner__ofertas{
+        font-size: 1.2rem; 
+    }
+    
+    .banner__titulo__second{
+        font-size: 1.2rem; 
+    }   
+}
+
+@media (max-width: 768px) {
+    .banner__boton {
+        width: 14vw;
+        padding: .8rem;
+    }
+
+    .banner__img {
+        display: none;
+    }
+
+    .banner__img2 {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .banner {
+        height: 352px;
+        padding: 2rem
+    }
+
+    .banner__contenido {
+        padding: 0 0;
+    }
+
+    .banner__titulo__principal {
+        font-size: 3.4rem;
+    }
+
+    .banner__ofertas {
+        font-size: 1.375rem;
+        font-weight: 700
+    }
+
+    .banner__nav-content {
+        width: calc(140px + 2.4em);
+        transform: none;
+        left: auto;
+        top: 92%;
+    }
+
+    .banner_nav {
+        height: 3px;
+        width: 35px;
+    }
+
+    .banner__titulo__principal {
+        font-size: 3.4rem;
+        width: 90vw;
+        margin: 0.4rem 0;    
+    }
+
+    .banner__titulo__second {
+        font-size: 1.375rem;
+        margin: 0.4rem 0;
+    }
+
+    .banner__titulos {
+        transform: translate(-47%, -20%);
+    }
+}
+
+@media (max-width: 617px) {
+    .banner__boton {
+        width: 15vw;
+        padding: .7rem;
+        font-size: .6rem;
+    }
+
+    .banner__ofertas {
+        font-size: 1rem;        
+    }
+
+    .banner__titulo__principal {
+        font-size: 3rem;        
+    }
+
+    .banner__titulo__second {
+        font-size: 1rem;        
+    }
+}
+
+@media (max-width: 520px) {
+    .banner {
+        height: 190px;
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+    .banner__contenido {
+        gap: 0.5rem;
+    }
+    .banner__titulo {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+    
+    .banner__ofertas {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner__boton {
+        width: 20vw;        
+    }
+
+    .banner__titulos {
+        transform: translate(-47%, -30%);
+    }
+
+    .banner__titulo__principal {
+        font-size: 2.2rem;        
+    }
+
+    .banner__titulo__second {
+        font-size: .7rem;        
+    }
+}
+
+@media (max-width: 378px) {
+    .banner__boton {
+        width: 23vw;        
+    }
+}

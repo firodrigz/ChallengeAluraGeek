@@ -1,14 +1,3 @@
-@import url(/producto/producto-barra-lista-item-imagen.css);
-@import url(/producto/producto-barra-lista-item-link.css);
-@import url(/producto/producto-barra-lista-item.css);
-@import url(/producto/producto-barra-lista.css);
-@import url(/producto/producto-barra-titulo-boton-flecha.css);
-@import url(/producto/producto-barra-titulo-boton.css);
-@import url(/producto/producto-barra-titulo-pricipal.css);
-@import url(/producto/producto-barra-titulo.css);
-@import url(/producto/producto-barra.css);
-@import url(/producto/totalProducto.css);
-
 .producto {
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -17,4 +6,269 @@
     flex-direction: column;
     align-items: center;
     gap: 4rem;    
+}
+
+/* producto-barra-lista-item-imagen */
+.producto__barra__lista__item__imagen {
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 8px;
+    box-shadow: 0 0 0.5rem rgb(28, 27, 27);
+    width: 160px;
+    height: 162.172px;
+}
+
+/* producto-barra-lista-item-link */
+.producto__barra__lista__item__link {
+    color: var(--second-bg-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5s ease;
+    padding-left: .3em;
+    margin-bottom: 4rem;
+
+}
+
+.producto__barra__lista__item__link:hover{
+    color: var(--text-color);
+    text-shadow: 
+    2px 2px 4px #30c7b5,
+    -2px -2px 4px #30c7b5;
+}
+
+/* producto-barra-lista-item */
+.producto__barra__lista__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 160px;
+}
+
+.producto__barra__lista__item h5 {
+    color: var(--preto-100, #464646);
+    font-size: 0.875rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.producto__barra__lista__item h6 {
+    color: #464646;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* producto-barra-lista */
+.producto__barra__lista {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 81vw;
+    max-height: 245px;
+    overflow: hidden;
+    gap: 1rem;
+    padding: 0.5rem;    
+}
+
+/* producto-barra-titulo-boton-flecha */
+.producto__barra__titulo__boton__flecha {
+    background-image: url("../../img/producto/flecha_azul.svg");
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* producto-barra-titulo-boton */
+.producto__barra__titulo__boton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--second-bg-color);
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: .5 ease;
+}
+
+.producto__barra__titulo__boton:hover{
+    transform: scale(1.09);
+}
+
+/* producto-barra-titulo-principal */
+.producto__barra__titulo__principal h2{
+    color: var(--bg-color);
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* producto-barra-titulo */
+.producto__barra__titulo {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* producto-barra */
+.producto__barra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* totalProducto */
+.totalProductos {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    width: 98.9vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalProductos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.totalProductos__barra {
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.producto__barra__titulo__boton1 {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--second-bg-color);
+    transition: .5s ease;
+}
+
+.producto__barra__titulo__boton1:hover {
+    box-shadow: 0 0 1rem var(--second-bg-color);
+    color: var(--second-bg-color);
+    background-color: var(--bg-color);
+    transform: scale(1.1);
+    border-radius: 4px;
+    border: none;
+}
+
+.producto__barra__lista__item__imagen {
+    position: relative;
+    display: inline-block;    
+}
+
+.producto__barra__lista__item__imagen img {
+    width: 160px;
+    height: 162.172px;    
+}
+
+.totalProductos__barra__icono {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 85px;
+    height: 49px;    
+}
+
+
+.totalProductos__barra__icono__a {
+    margin: 3px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.3rem;
+    background: rgba(24, 24, 24, 0.129);
+    border: .18rem solid var(--second-bg-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: var(--second-bg-color);
+    transition: .5s ease;
+    cursor: pointer;    
+}
+
+.totalProductos__barra__icono__a:hover {
+    background: var(--second-bg-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 1rem var(--second-bg-color);    
+}
+
+
+@media (max-width: 768px) {
+    .producto__barra__lista {
+        width: 91vw;
+    }
+
+    .producto__barra__titulo__principal h2{
+        font-size: 1.4rem
+    }
+
+    .producto__barra__titulo {
+        width: 90vw;
+    }
+
+    .totalProductos {
+        padding: 1rem;
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .totalProductos__barra {
+        width: auto;
+        justify-content: center;
+        gap: 0.9rem
+    }
+}
+
+@media (max-width: 565px) {
+    .totalProductos {
+        padding: 0.5rem;
+    }
+
+    .producto__barra__titulo {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 378px) {
+    .producto__barra__lista {
+        width: 95vw;
+        padding: 0.5rem;
+    }
+
+    .producto__barra__titulo {
+        width: 95vw;
+    }
 }
