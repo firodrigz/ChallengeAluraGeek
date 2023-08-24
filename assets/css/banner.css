@@ -1,9 +1,9 @@
-@import url(/assets/css/banner/banner-boton.css);
-@import url(/assets/css/banner/banner-img.css);
-@import url(/assets/css/banner/banner-titulo-principal.css);
-@import url(/assets/css/banner/banner-titulo-second.css);
-@import url(/assets/css/banner/banner-titulos.css);
-@import url(/assets/css/banner/banner-slider.css);
+@import url(./assets/css/banner/banner-boton.css);
+@import url(./assets/css/banner/banner-img.css);
+@import url(./assets/css/banner/banner-titulo-principal.css);
+@import url(./assets/css/banner/banner-titulo-second.css);
+@import url(./assets/css/banner/banner-titulos.css);
+@import url(./assets/css/banner/banner-slider.css);
 
 .banner {
     position: relative;

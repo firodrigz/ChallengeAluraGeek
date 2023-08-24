@@ -1,13 +1,13 @@
-@import url(/assets/css/producto/producto-barra-lista-item-imagen.css);
-@import url(/assets/css/producto/producto-barra-lista-item-link.css);
-@import url(/assets/css/producto/producto-barra-lista-item.css);
-@import url(/assets/css/producto/producto-barra-lista.css);
-@import url(/assets/css/producto/producto-barra-titulo-boton-flecha.css);
-@import url(/assets/css/producto/producto-barra-titulo-boton.css);
-@import url(/assets/css/producto/producto-barra-titulo-pricipal.css);
-@import url(/assets/css/producto/producto-barra-titulo.css);
-@import url(/assets/css/producto/producto-barra.css);
-@import url(/assets/css/producto/totalProducto.css);
+@import url(./assets/css/producto/producto-barra-lista-item-imagen.css);
+@import url(./assets/css/producto/producto-barra-lista-item-link.css);
+@import url(./assets/css/producto/producto-barra-lista-item.css);
+@import url(./assets/css/producto/producto-barra-lista.css);
+@import url(./assets/css/producto/producto-barra-titulo-boton-flecha.css);
+@import url(./assets/css/producto/producto-barra-titulo-boton.css);
+@import url(./assets/css/producto/producto-barra-titulo-pricipal.css);
+@import url(./assets/css/producto/producto-barra-titulo.css);
+@import url(./assets/css/producto/producto-barra.css);
+@import url(./assets/css/producto/totalProducto.css);
 
 .producto {
     margin-top: 4rem;
