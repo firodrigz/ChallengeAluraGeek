@@ -1,8 +1,8 @@
-@import url(./assets/css/header/header-boton.css);
-@import url(./assets/css/header/header-buscar.css);
-@import url(./assets/css/header/header-input.css);
-@import url(./assets/css/header/header-logo.css);
-@import url(./assets/css/header/header-lupa.css);
+@import url(/header/header-boton.css);
+@import url(/header/header-buscar.css);
+@import url(/header/header-input.css);
+@import url(/header/header-logo.css);
+@import url(/header/header-lupa.css);
 
 .header {
     display: flex;
